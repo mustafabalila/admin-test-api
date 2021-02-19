@@ -1,4 +1,9 @@
 {
+  "name": "task-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "mustafabalila",
+  "license": "ISC",
   "scripts": {
     "start": "pm2 start ecosystem.config.json --no-daemon",
     "dev": "cross-env NODE_ENV=development nodemon src/server.js",
